@@ -1,0 +1,28 @@
+n=int(input('enter n'))
+l=[]
+t=[]
+for i in range(n):
+     x=int(input())
+     l.append(x)
+X=0
+for j in range (n):
+    if (l[j]>0):
+      t.append(l[j]) 
+for j in range (x,n):
+    if(l[j]<0):
+       t.append(l[j])
+Print (t)
+
+
+
+
+
+Output:
+Enter n:6
+-7
+-3
+8
+-2
+5
+4
+[8,5,4,-7,-3,-2]
